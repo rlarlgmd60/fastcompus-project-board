@@ -1,6 +1,12 @@
 package com.fastcampus.projectboard.domain;
 
+import lombok.Getter;
+import lombok.ToString;
+
 import java.time.LocalDateTime;
+
+@Getter
+@ToString
 
 public class Article {
     private Long id;
